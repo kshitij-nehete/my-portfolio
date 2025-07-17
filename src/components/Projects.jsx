@@ -8,7 +8,7 @@ const projects = [
       "A personal portfolio build with React, Tailwind CSS, and Framer Motion",
     tech: ["React", "Tailwind", "Framer Motion"],
     github: "https://github.com/kshitij-nehete/my-portfolio",
-    dem0: "https://github.com/kshitij-nehete/my-portfolio",
+    demo: "https://github.com/kshitij-nehete/my-portfolio",
   },
   {
     title: "Portfolio Website 2",
@@ -17,7 +17,7 @@ const projects = [
       "A personal portfolio build with React, Tailwind CSS, and Framer Motion",
     tech: ["React", "Tailwind", "Framer Motion"],
     github: "https://github.com/kshitij-nehete/my-portfolio",
-    dem0: "https://github.com/kshitij-nehete/my-portfolio",
+    demo: "https://github.com/kshitij-nehete/my-portfolio",
   },
   {
     title: "Portfolio Website 3",
@@ -26,7 +26,7 @@ const projects = [
       "A personal portfolio build with React, Tailwind CSS, and Framer Motion",
     tech: ["React", "Tailwind", "Framer Motion"],
     github: "https://github.com/kshitij-nehete/my-portfolio",
-    dem0: "https://github.com/kshitij-nehete/my-portfolio",
+    demo: "https://github.com/kshitij-nehete/my-portfolio",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Projects() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-fill"
             />
             <div className="p-5 flex flex-col flex-grow">
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">

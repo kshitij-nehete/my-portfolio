@@ -5,7 +5,7 @@ const skills = [
   { name: "CSS", icon: "/tech/css.png" },
   { name: "JavaScript", icon: "/tech/javascript.png" },
   { name: "Angular", icon: "/tech/angular.png" },
-//   { name: "GitHub Copiolet", icon: "/tech/github-copilot.png" },
+  //   { name: "GitHub Copiolet", icon: "/tech/github-copilot.png" },
   { name: "React", icon: "/tech/react.png" },
   { name: "Python", icon: "/tech/python.png" },
   { name: "MongoDB", icon: "/tech/mongodb.png" },
@@ -28,14 +28,14 @@ export default function Skills() {
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="flex flex-col items-center justify-center gap-2"
+              className="flex flex-col items-center justify-center gap-2 dar"
             >
               <img
                 src={skill.icon}
                 alt={skill.name}
                 className="w-16 h-16 object-contain"
               />
-              <span className="text-gray-800 dark:text-wrap text-sm font-medium">
+              <span className="text-gray-800 dark:text-gray-200 dark:text-wrap text-sm font-medium">
                 {skill.name}
               </span>
             </div>
